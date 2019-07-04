@@ -16,7 +16,7 @@ class PostViewModel : ViewModel() {
     fun getPosts() : MutableLiveData<List<PostModel>>? {
         if(mutableLiveData == null) {
             mutableLiveData = MutableLiveData()
-            loadPosts();
+            loadPosts()
         }
         return mutableLiveData
     }
