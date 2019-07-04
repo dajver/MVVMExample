@@ -1,4 +1,4 @@
-package dajver.com.mvvm.livedata
+package dajver.com.mvvm.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

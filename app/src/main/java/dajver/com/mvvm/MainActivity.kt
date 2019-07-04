@@ -6,7 +6,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import dajver.com.mvvm.adapter.PostRecyclerAdapter
 import dajver.com.mvvm.api.model.PostModel
-import dajver.com.mvvm.livedata.PostViewModel
+import dajver.com.mvvm.viewmodel.PostViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
